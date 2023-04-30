@@ -1,0 +1,34 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+h1
+{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+}
+
+#show_sketch
+{
+    float: right;
+    margin-right: 10px;
+}
+
+canvas
+{
+    border: 5px solid chocolate;
+    border-radius: 5px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 60px darkolivegreen}
+    to{box-shadow: 1px 1px 60px darkred;}
+}
+
